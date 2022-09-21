@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+background: rgb(19, 19, 73)
+}
+header {
+    background: rgb(18, 18, 53);
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    padding: 1.7rem 9%;
+    border-bottom: solid white;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    font-size: 18px;
+    float: left;
+    list-style: none;
+    margin-left: 2rem;
+    position: relative;
+    top: 0px;
+    left: 600px;
+}
+.clearfix{
+    clear: both;
+}
+.content1{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(img/FOTO1.jpg) no-repeat;
+    background-size: cover;
+}
+
+p{
+    color: rgb(34, 34, 97);
+        display: block;
+        font-size: 5rem;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        position: absolute;
+        left: 700px;
+        
+}

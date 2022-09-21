@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html, body{
+    height: 100%;
+}
+#grid{
+display: grid;
+grid-template-areas: 
+"header"
+"section"
+"footer";
+grid-template-columns: 100%;
+grid-template-rows: 100px auto 100px;
+background: rgb(19, 19, 73)
+}
+header{
+    grid-area: header;
+    background: rgb(18, 18, 53);
+    border-bottom: solid white;
+    display: flex;     
+    flex-direction: column; 
+    justify-content: space-around;
+    height: 170px;
+    align-items: center;
+
+}
+
+section{
+    grid-area: section;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 1400px;
+    margin-top: 100px;
+    margin-bottom: 12px;
+
+}
+footer{
+grid-area: footer;
+color: rgb(18, 18, 53);
+background-color: rgb(37, 37, 61);
+border: solid 3px rgb(95, 95, 134);
+margin: 0 10px ;
+padding: 50px;
+height: 80px;
+max-width: 100%;
+text-align: center;
+flex-direction: column;
+}
+.direccion{
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+    
+}
+.instagram{
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+}
+.contenedor{
+    color: rgb(16, 16, 48);
+    background-color: white;
+    border: 4px rgb(49, 49, 87) outset;
+    padding: 20px;
+    height: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedor2{
+    list-style: none;
+}
